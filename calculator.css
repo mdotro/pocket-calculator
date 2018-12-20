@@ -1,9 +1,18 @@
+* {
+  
+}
+
+
+
 .operators {
   height: 100Px;
-  width: 100Px
+  width: 100Px;
+  font-family: "Bai Jamjuree";
+
 }
 
 #real-input {
   height: 100Px;
   width: 410Px;
+  text-align: right;
 }
