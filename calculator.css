@@ -1,19 +1,43 @@
 * {
-  background-color: #0066ff
-  
+  background-color: #000099;
 }
 
-
+#title {
+  font-family: "Bai Jamjuree";
+  align: center;
+  color: #cc9900;
+  font-size: 38px;
+  text-decoration: underline;
+}
 
 .operators {
   height: 100Px;
   width: 100Px;
   font-family: "Bai Jamjuree";
-
+  font-size: 38px;
+  color: #cc9900;
+  border-color: #cc9900;
+  font-weight: bold;
 }
 
 #real-input {
   height: 100Px;
   width: 410Px;
   text-align: right;
+  font-family : "Bai Jamjuree";
+  font-size: 38px;
+  color: #cc9900;
+  border-color: #cc9900;
+  font-weight: bold;
+}
+
+#bears {
+  height: 500px;
+  width: 300px;
+  border: 10px solid transparent;
+  border-color: #cc9900;
+}
+
+#zero {
+  width: 203px;
 }
