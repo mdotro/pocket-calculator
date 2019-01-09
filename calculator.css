@@ -3,7 +3,6 @@
 }
 
 #title {
-  font-family: "Bai Jamjuree";
   align: center;
   color: #cc9900;
   font-size: 38px;
@@ -13,18 +12,16 @@
 .operators {
   height: 100Px;
   width: 100Px;
-  font-family: "Bai Jamjuree";
   font-size: 38px;
   color: #cc9900;
   border-color: #cc9900;
   font-weight: bold;
 }
 
-#real-input {
+#calculator-screen {
   height: 100Px;
   width: 410Px;
   text-align: right;
-  font-family : "Bai Jamjuree";
   font-size: 38px;
   color: #cc9900;
   border-color: #cc9900;
