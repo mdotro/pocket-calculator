@@ -19,6 +19,7 @@
 }
 
 #real-input {
+  border-style: solid;
   height: 100px;
   width: 410px;
   text-align: right;
