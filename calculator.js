@@ -22,7 +22,8 @@ function zero() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 } 
-  function one() {
+  
+function one() {
   if (number == 1) {
     string = "1"
   } else {
