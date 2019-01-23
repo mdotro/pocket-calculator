@@ -185,8 +185,9 @@ function nine() {
   div.innerHTML = string;
 }
 
-function clear() {
+function clears() {
   var div = document.getElementById("real-input");
+  console.log(1)
   div.innerHTML = 0;
   string = " "
   saved = ""
