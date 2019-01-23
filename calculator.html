@@ -3,16 +3,15 @@
   <head>
     <title>Mike's Caluclator</title>
     <link rel = "stylesheet" type = "text/css" href = "calculator.css"/>
+    <script type = "text/javascript" src = "calculator.js"></script>
   </head>
   <body>
     <div id = "title">
       <h1 align = "center">Mike's Caluclator</h1>
     </div>
-    <div class = "calculator">
-      <form>
-            <p align = "center">
-              <input type = "number" id = "calculator-screen" value = "0"/>
-            </p>
+    <div id="user-input" align="center">
+      <p id="calculator-stuff"></p>
+      <p id="real-input">0</p>
             <img id = "bears" src = "C:\Users\mdotro\Desktop\APCSP\pocket-calculator\images\images.jpg" align = "left"/>
             <img  id = "bears" src = "C:\Users\mdotro\Desktop\APCSP\pocket-calculator\images\images.png" align = "right"/>
           <table align = "center">
@@ -45,8 +44,7 @@
               <td><input type = "button" id = "decimal" value = "." class = "operators" onclick = "decimal();"></td>
               <td><input type = "button" id = "equal" value = "=" class = "operators" onclick = "equal();"></td>
             </tr>
-          </table>
-        </form>
-      </div>
-    </body>
+      </table>
+    </div>
+  </body>
 </html>
