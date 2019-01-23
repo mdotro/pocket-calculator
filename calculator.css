@@ -10,8 +10,8 @@
 }
 
 .operators {
-  height: 100Px;
-  width: 100Px;
+  height: 100px;
+  width: 100px;
   font-size: 44px;
   color: #cc9900;
   border-color: #cc9900;
@@ -19,8 +19,8 @@
 }
 
 #real-input {
-  height: 100Px;
-  width: 410Px;
+  height: 100px;
+  width: 410px;
   text-align: right;
   font-size: 50px;
   color: #cc9900;
