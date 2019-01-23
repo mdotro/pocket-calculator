@@ -195,7 +195,7 @@ function clear() {
   number = 0;
   if (clear == true) {
     decimal = false;
-    document.getElementById("deciButton").disabled = false;
+    document.getElementById("decimal").disabled = false;
   }
 }
 
@@ -207,7 +207,7 @@ function mult() {
   number = 0;
   operator = 1;
   if (operator == 1) {
-    document.getElementById("deciButton").disabled = false;
+    document.getElementById("decimal").disabled = false;
   }
 }
 
@@ -219,7 +219,7 @@ function add() {
   number = 0;
   operator = 1;
   if (operator == 1) {
-    document.getElementById("deciButton").disabled = false;
+    document.getElementById("decimal").disabled = false;
   }
 }
 
@@ -231,7 +231,7 @@ function div() {
   number = 0;
   operator = 1;
   if (operator == 1) {
-    document.getElementById("deciButton").disabled = false;
+    document.getElementById("decimal").disabled = false;
   }
 }
 
@@ -243,7 +243,7 @@ function sub() {
   number = 0;
   operator = 1;
   if (operator == 1) {
-    document.getElementById("deciButton").disabled = false;
+    document.getElementById("decimal").disabled = false;
   }
 }
 
@@ -264,7 +264,7 @@ function posNeg() {
   number = 0;
 }
 
-function deci() {
+function decimal() {
   if (decimalUsed == false){
     var div = document.getElementById("real-input");
     saved = string;
@@ -273,7 +273,7 @@ function deci() {
     decimal = true;
   }
   if (decimal == true) {
-    document.getElementById("deciButton").disabled = true;
+    document.getElementById("decimal").disabled = true;
   }
 }
 
