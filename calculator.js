@@ -199,7 +199,7 @@ function clear() {
   }
 }
 
-function multiply() {
+function mult() {
   var div = document.getElementById("output");
   saved = string;
   saved += "*"
@@ -211,7 +211,7 @@ function multiply() {
   }
 }
 
-function addition() {
+function add() {
   var div = document.getElementById("output");
   saved = string;
   saved += "+"
@@ -223,7 +223,7 @@ function addition() {
   }
 }
 
-function division() {
+function div() {
   var div = document.getElementById("output");
   saved = string;
   saved += "/"
@@ -235,7 +235,7 @@ function division() {
   }
 }
 
-function subtraction() {
+function sub() {
   var div = document.getElementById("output");
   saved = string;
   saved += "-"
@@ -264,7 +264,7 @@ function posNeg() {
   number = 0;
 }
 
-function decimal() {
+function deci() {
   if (decimalUsed == false){
     var div = document.getElementById("output");
     saved = string;
@@ -277,7 +277,7 @@ function decimal() {
   }
 }
 
-function percentage() {
+function perc() {
   var div = document.getElementById("output");
   string = Number(string) * (0.01)
   div.innerHTML = string;
