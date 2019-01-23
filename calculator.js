@@ -19,7 +19,7 @@ function zero() {
     }
     string += "0"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 } 
   
@@ -37,7 +37,7 @@ function one() {
     }
     string += "1"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
@@ -55,7 +55,7 @@ function two() {
     }
     string += "2"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
@@ -73,7 +73,7 @@ function three() {
     }
   string += "3"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
@@ -91,7 +91,7 @@ function four() {
     }
   string += "4"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
@@ -109,7 +109,7 @@ function five() {
     }
   string += "5"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
@@ -127,7 +127,7 @@ function six() {
     }
   string += "6"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
@@ -145,7 +145,7 @@ function seven() {
     }
   string += "7"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
@@ -163,7 +163,7 @@ function eight() {
     }
   string += "8"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
@@ -181,12 +181,12 @@ function nine() {
     }
     string += "9"
   }
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = string;
 }
 
 function clear() {
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   div.innerHTML = 0;
   string = " "
   saved = ""
@@ -200,7 +200,7 @@ function clear() {
 }
 
 function mult() {
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   saved = string;
   saved += "*"
   div.innerHTML = saved;
@@ -212,7 +212,7 @@ function mult() {
 }
 
 function add() {
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   saved = string;
   saved += "+"
   div.innerHTML = saved;
@@ -224,7 +224,7 @@ function add() {
 }
 
 function div() {
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   saved = string;
   saved += "/"
   div.innerHTML = saved;
@@ -236,7 +236,7 @@ function div() {
 }
 
 function sub() {
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   saved = string;
   saved += "-"
   div.innerHTML = saved;
@@ -248,7 +248,7 @@ function sub() {
 }
 
 function equal() {
-  var div= document.getElementById("output");
+  var div= document.getElementById("real-input");
   string = eval(string);
   div.innerHTML = Number(string).toLocaleString();
   if (Number(string) > 999999999 || Number(string) < 0.000000001) {
@@ -258,7 +258,7 @@ function equal() {
 }
 
 function posNeg() {
-  var div= document.getElementById("output");
+  var div= document.getElementById("real-input");
   string = Number(string) * (-1);
   div.innerHTML = string;
   number = 0;
@@ -266,7 +266,7 @@ function posNeg() {
 
 function deci() {
   if (decimalUsed == false){
-    var div = document.getElementById("output");
+    var div = document.getElementById("real-input");
     saved = string;
     saved += ".";
     div.innerHTML = saved;
@@ -278,7 +278,7 @@ function deci() {
 }
 
 function perc() {
-  var div = document.getElementById("output");
+  var div = document.getElementById("real-input");
   string = Number(string) * (0.01)
   div.innerHTML = string;
   number = 0;
